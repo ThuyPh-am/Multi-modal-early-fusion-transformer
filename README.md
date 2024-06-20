@@ -1,6 +1,6 @@
 # Multi-modal-early-fusion-transformer
 
-# Horse Lameness Detection Using Transformer and YOLOPose
+## Horse Lameness Detection Using Transformer and YOLOPose
 
 ## Overview
 
