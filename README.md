@@ -4,7 +4,7 @@
 
 ## Overview
 
-This project aims to detect lameness in horses by leveraging deep learning models. It combines a pre-trained YOLOPose model for keypoint detection and a ResNet50 model for feature extraction from video frames. The extracted features and keypoints are processed through a Transformer model to classify horses as sound or lame.
+This project aims to detect lameness in horses by leveraging deep learning models. It combines a pre-trained YOLOPose model for keypoint detection and a custom simple Conv3D model for feature extraction from video frames. The extracted features and keypoints are processed through a Transformer encoder to classify horses as sound or lame.
 
 ## Table of Contents
 
@@ -17,28 +17,7 @@ This project aims to detect lameness in horses by leveraging deep learning model
 - [Contributing](#contributing)
 - [License](#license)
 
-## Project Structure
 
-```
-.
-├── data
-│   ├── raw
-│   ├── processed
-│   └── annotations
-├── models
-│   ├── yolo_pose
-│   └── resnet50
-├── notebooks
-│   └── exploratory_data_analysis.ipynb
-├── scripts
-│   ├── train.py
-│   └── inference.py
-├── utils
-│   ├── data_processing.py
-│   └── visualization.py
-├── README.md
-└── requirements.txt
-```
 
 ## Setup and Installation
 
